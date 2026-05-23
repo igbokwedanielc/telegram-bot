@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = os.getenv("BOT_TOKEN")  # Render will inject this
+TOKEN = os.getenv("BOT_TOKEN") 
 
 async def start(update, context):
     await update.message.reply_text("Hello! The bot is now active 😊")
