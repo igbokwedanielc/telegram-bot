@@ -1,6 +1,6 @@
 import os
 import logging
-from telegram.ext import Application, CommandHandler, MessageHandler, filters
+from telegram.ext import Application, CommandHandler, MessageHandler, filters  # type: ignore[import]
 
 logging.basicConfig(level=logging.INFO)
 
